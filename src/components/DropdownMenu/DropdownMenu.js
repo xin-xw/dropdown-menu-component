@@ -6,7 +6,7 @@ import "./DropdownMenu.css";
 function useOutsideAlerter({ ref, onClose }) {
   useEffect(() => {
     function handleClickOutside(event) {
-      if (ref.current && !ref.current.contains(event.target)) {
+      if (ref && ref.current && !ref.current.contains(event.target)) {
         onClose();
       }
     }
