@@ -1,0 +1,23 @@
+.dropdown-controls {
+  display: flex;
+  justify-content: center; /* Align buttons to the center */
+  padding: 10px; /* Add padding for spacing */
+  background-color: #f9f9f9; /* Optional: to match the dropdown background */
+  border-top: 1px solid #ccc; /* A subtle border to separate from the list */
+}
+
+.control-btn-select-all, .control-btn-deselect-all {
+  padding: 6px 12px;
+  font-size: 14px;
+  color: #333;
+  background-color: #FAFBFC;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 4px;
+  margin: 0 5px; /* Space between buttons */
+  cursor: pointer;
+  transition: background-color 0.2s; /* Smooth transition for hover effect */
+}
+
+.control-btn-select-all:hover, .control-btn-deselect-all:hover {
+  background-color: #EDEFF2;
+}
